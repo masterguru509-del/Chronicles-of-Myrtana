@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background-color: #0b0907;
+    color: #e8d5a8;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Cinzel', Georgia, serif;
+  }
+
+  .font-mono-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@keyframes floatUpFade {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(0.95);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -14px) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -44px) scale(0.9);
+  }
+}
+
+.damage-floater {
+  animation: floatUpFade 0.95s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

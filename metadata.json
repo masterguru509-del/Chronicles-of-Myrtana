@@ -1,0 +1,6 @@
+{
+  "name": "Gothic Chronicles 3D: Remastered",
+  "description": "Ролевая 3D-игра в открытом мире Миртаны с улучшенной графикой, процедурными текстурами, шейдерной водой, живой травой, детализированными моделями существ и постобработкой.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
